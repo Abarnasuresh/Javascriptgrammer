@@ -18,12 +18,12 @@ Text based programming language
 # CHAPTER 2:
 ## CHROME CONSOLE:
 COPY: Copying JSON representation of an existing object to copy buffer
- ```
+```
 let object = { property1 : 1, property1 : 2, method : function(){} };
 copy(object);
 ```
 ## console.dir:
-       Basically it is used to show HTML node as a Javascript(instead xml)representation
+Basically it is used to show HTML node as a Javascript(instead xml)representation
 *displays the object in javascript representation
           console. dir() displays an interactive list of the properties of the specified JavaScript object.
 ```
