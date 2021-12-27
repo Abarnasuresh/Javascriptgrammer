@@ -1,0 +1,9 @@
+The strict mode is a feature available since ECMAScript 5 that allows you to place
+your entire program, or an isolated scope, in a ”strict” operating context. This
+strict context prevents certain actions from being taken and throws an exception.
+*Cannot undeclared variables
+*Cannot delete variables
+*Cannot declare globally
+“use strict”;
+var v=3;
+delete y;
