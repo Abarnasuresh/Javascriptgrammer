@@ -1,0 +1,1 @@
+ used to import bindings that are exported by another module. Using the Javascript import, the code is easier to manage.
