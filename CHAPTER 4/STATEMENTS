@@ -1,0 +1,5 @@
+A statement is the smallest building block of a computer program. In this chapter
+we will explore a few common cases.
+    • Definitions made with var, let or const keywords return undefined because they behave only as value assignments: the value is simply stored in the variable name
+   let a=1; // undefined
+  a;    //1
