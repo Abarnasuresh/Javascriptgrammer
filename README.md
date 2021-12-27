@@ -194,14 +194,33 @@ console.log(f.p);
 ### STATEMENTS:
   A statement is the smallest building block of a computer program. In this chapter
 we will explore a few common cases.
-    • Definitions made with var, let or const keywords return undefined because they behave only as value assignments: the value is simply stored in the variable name
-   let a=1; // undefined
-  a;    //1
+    • Definitions made with var, let or const keywords return undefined because they behave only as value assignments: the value is simply stored in the variable name.
+```
+ let x = 20,y,z;
+x;
+y;
+y=20;
+z=x+y;
+if(y>=0){
+    x=y;
+}else{
+x=-y;
+}
+console.log(x,y,z);
+```
+ 
 ### EXPRESSIONS:
-1+1=2        //2
 
 Expressions don’t have to be variable definitions. You can create them
 by simply using some literal values in combination with operators.
 let f = function () {return 1};
 f();
     • Function f() evaluates to value 1, because it returns 1. This is why f() is often referred to as a function expression.
+ ```
+ 1+1; //2
+let f = function(){return 1}; //undefined
+f(); //1
+var y=10; //undefined
+var x=(y>0?y:-y); //undefined
+console.log(x); //  10
+```
