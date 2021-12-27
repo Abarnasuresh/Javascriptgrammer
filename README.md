@@ -154,10 +154,12 @@ strict context prevents certain actions from being taken and throws an exception
 *Cannot undeclared variables
 *Cannot delete variables
 *Cannot declare globally
+ 
+```
 “use strict”;
 var v=3;
 delete y;
-
+```
 
 ### LITERAL VALUES:
 *It have also have numbers and strings
@@ -179,6 +181,7 @@ some point later in your JavaScript program.
 
 ### PASSING VALUES BY REFERENCE:
   javascript assings the value by reference without actually making the copy of the orginal values.
+```
 let a ={p:2};
 let c=b;
 let c=b;
@@ -186,7 +189,7 @@ let d=c;
 let f=d;
 a.p=10;
 console.log(f.p);
- 
+```
  ## CHAPTER 4:
 ### STATEMENTS:
   A statement is the smallest building block of a computer program. In this chapter
