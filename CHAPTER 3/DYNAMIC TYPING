@@ -1,0 +1,3 @@
+JavaScript is a dynamically-typed language. It means that variables created using
+var or let keywords can be dynamically re-assigned to a value of another type at
+some point later in your JavaScript program.
