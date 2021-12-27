@@ -1,0 +1,14 @@
+console.time() and console.timeEnd():
+  The console. time() method starts a timer in the console view. This method allows you to time certain operations in your code for testing purposes. 
+
+ *Use the console. timeEnd() method to end the timer and display the result in the console.
+console.time();
+   let arr = Array(1000);
+   for(let i=0; i<arr.length; i++) {
+   arr[i] = new Object();
+   }
+   console.timeEnd();  
+
+   console.clear()
+
+   This method clears the console
