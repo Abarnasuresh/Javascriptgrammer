@@ -1,0 +1,10 @@
+ Basically it is used to show HTML node as a Javascript(instead xml)representation
+*displays the object in javascript representation
+          console. dir() displays an interactive list of the properties of the specified JavaScript object.
+          
+          let object = { property1 : 1, property1 : 2, method : function(){} };
+console.dir(object);
+> Object
+    >method: ƒ ()
+     property1: 2
+    >[[Prototype]]: Object
