@@ -1,0 +1,7 @@
+Console.error:
+   console. error() method writes an error message to the console.
+
+
+Syntax
+console.error(obj1 [, obj2, ..., objN]);
+console.error(msg [, subst1, ..., substN]);
