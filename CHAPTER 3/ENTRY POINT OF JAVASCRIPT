@@ -1,0 +1,5 @@
+*Every computer program has an entry point you can start writing your code directly into <script> tags 
+note: it means it will be executed as the script is being download into the browser without concern for DOM or other media.
+
+DOM-(Document Object Model) is aprogramming API(Application Programming interface)
+for HTML documents it defines the logical structure of documents.
