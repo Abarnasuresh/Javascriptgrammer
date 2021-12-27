@@ -24,8 +24,10 @@ copy(object);
 ```
 ## console.dir:
 Basically it is used to show HTML node as a Javascript(instead xml)representation
+
 *displays the object in javascript representation
           console. dir() displays an interactive list of the properties of the specified JavaScript object.
+          
 ```
 let object = { property1 : 1, property1 : 2, method : function(){} };
 console.dir(object);
@@ -78,15 +80,19 @@ for HTML documents it defines the logical structure of documents.
 
 ### DOM READY STATE:
   readyState property describes the loading state of the document . When the value of this property changes, a readystatechange event fires on the document object.
-  LOADING->Documents still loading
-  INTERACTIVE->documents has finished loading and document has parsed
+ 
+  LOADING:Documents still loading
+ 
+  INTERACTIVE-:documents has finished loading and document has parsed
 and subresources such as
 *scripts
 *images
 *style sheets
 *frameworks
-  COMPLETE->Document and all subresourses have finished loading the state has indicates that load event is about to fire.
-  ```
+ 
+  COMPLETE:Document and all subresourses have finished loading the state has indicates that load event is about to fire.
+ 
+```
 <html>
     <head>
         <title> DOM Loaded.</title>
