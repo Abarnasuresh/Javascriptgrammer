@@ -1,8 +1,11 @@
 # Javascriptgrammer
 ## Presentation Format:
-### Namely:imports, classes, constructors, key principles behind functional programming, including many features ranging from ES5 - ES10 These are all covered in this Documentaion.
-### ECMA->Normal Js code  run on browser 
-### javascript->allows to make web page interactive
+### Namely:
+imports, classes, constructors, key principles behind functional programming, including many features ranging from ES5 - ES10 These are all covered in this Documentaion.
+### ECMA:
+Normal Js code  run on browser 
+### javascript:
+allows to make web page interactive
 javascript->It allows us to add dynamic behavior to the webpage and add special effects to the webpage.
 Text based programming language
 *client side
@@ -14,32 +17,38 @@ Text based programming language
 *restore
 # CHAPTER 2:
 ## CHROME CONSOLE:
-       COPY: Copying JSON representation of an existing object to copy buffer
+COPY: Copying JSON representation of an existing object to copy buffer
+ ```
 let object = { property1 : 1, property1 : 2, method : function(){} };
 copy(object);
+```
 ## console.dir:
        Basically it is used to show HTML node as a Javascript(instead xml)representation
 *displays the object in javascript representation
           console. dir() displays an interactive list of the properties of the specified JavaScript object.
-       let object = { property1 : 1, property1 : 2, method : function(){} };
+```
+let object = { property1 : 1, property1 : 2, method : function(){} };
 console.dir(object);
 > Object
     >method: ƒ ()
      property1: 2
     >[[Prototype]]: Object
+```
 
 ### Console.error:
    console. error() method writes an error message to the console.
 
-
+```
 Syntax
 console.error(obj1 [, obj2, ..., objN]);
 console.error(msg [, subst1, ..., substN]);
-
+```
 ### console.time() and console.timeEnd():
   The console. time() method starts a timer in the console view. This method allows you to time certain operations in your code for testing purposes. 
 
  *Use the console. timeEnd() method to end the timer and display the result in the console.
+ 
+```
 console.time();
    let arr = Array(1000);
    for(let i=0; i<arr.length; i++) {
@@ -48,7 +57,7 @@ console.time();
    console.timeEnd();  
 
    console.clear()
-
+```
    This method clears the console
 
 
