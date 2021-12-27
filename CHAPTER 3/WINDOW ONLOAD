@@ -1,0 +1,9 @@
+  With window.onload method, you can wait until all images and similar mediahave been fully downloaded.
+Including external scripts
+ <!DOCTYPE html>
+  <html>
+      <head>
+          <title>Import Module</title>
+          <script src="your-External-Script-path"></script>
+      </head> 
+  </html>
