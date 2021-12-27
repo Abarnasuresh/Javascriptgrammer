@@ -115,9 +115,12 @@ and subresources such as
 ```
 ### DOS AND DONT’S:
 *Do not write your code just in <script> tags, without entry point function.
+ 
 *Do use the entry point to initialize the default state of your data and objects.
+ 
 *Do make your program entry point either DOMContentLoaded, readyState or
 the native window.onload method for waiting on media.
+ 
 ### WINDOW ONLOAD:
   With window.onload method, you can wait until all images and similar media
 have been fully downloaded.
