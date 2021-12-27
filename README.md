@@ -223,9 +223,11 @@ console.log(x,y,z);
 
 Expressions don’t have to be variable definitions. You can create them
 by simply using some literal values in combination with operators.
+ 
 let f = function () {return 1};
 f();
-    • Function f() evaluates to value 1, because it returns 1. This is why f() is often referred to as a function expression.
+• Function f() evaluates to value 1, because it returns 1. This is why f() is often referred to as a function expression.
+ 
  ```
  1+1; //2
 let f = function(){return 1}; //undefined
