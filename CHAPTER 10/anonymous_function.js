@@ -3,4 +3,4 @@ function sendEmail(from,sub,message){
     let send =function () {console.log(msg)}
     send();
 }
-sendEmail('karthik','re:subject','Good news');
+sendEmail('Abarna','re:subject','Good news');
