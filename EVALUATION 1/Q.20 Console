@@ -1,3 +1,14 @@
 //console log()
+
 var a = 2;
 console.log(a);
+
+//console dir()
+let object = { property1 : 1, property1 : 2, method : function(){} };
+console.dir(object);
+
+//console count()
+
+for (let i = 0; i < 5; i++) {
+  console.count("");
+}
