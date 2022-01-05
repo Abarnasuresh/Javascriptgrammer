@@ -4,6 +4,7 @@ var a = 2;
 console.log(a);
 
 //console dir()
+
 let object = { property1 : 1, property1 : 2, method : function(){} };
 console.dir(object);
 
@@ -12,3 +13,11 @@ console.dir(object);
 for (let i = 0; i < 5; i++) {
   console.count("");
 }
+
+//console table()
+
+var numbers = ["one", "two", "three"];
+console.log(numbers);
+console.table(numbers);
+
+//console
