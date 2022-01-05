@@ -1,0 +1,7 @@
+const arr= [ {id:1,name:"edison"},
+{ id:2,name:"aanand"},
+{id:3,name:"vasanth"}
+]
+let result=arr.reduce((prev,current)=>{
+prev [current.id]=current;
+return prev;},{});console.log(result)
