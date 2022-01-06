@@ -3,7 +3,43 @@
 ### Algorithm
 ### Psuedocode
 ### Code
+
+```
+function checkPrime(num) 
+{ 
+if (num === 2) 
+{ 
+return true;
+}
+ else if (num > 1)
+{
+ for (var i = 2; i < num; i++)
+{
+ if (num % i !== 0)
+{
+ return true;
+}
+ else if (num === i * i)
+{
+ return false;
+}
+ else
+{
+ return false;
+} 
+}
+}
+else 
+{
+return false;
+}
+}
+console. log(checkPrime(7));
+```
 Output
+```
+true
+```
 ## 2.What is difference between == and === with an example?
 * == is used for comparison between two variables irrespective of the datatype of variable.
 * === is used for comparision between two variables but this will check strict type, which means it will check datatype and compare two values.
