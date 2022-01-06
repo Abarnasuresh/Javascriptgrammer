@@ -114,4 +114,10 @@ Output
 ```
 jdk ehf dba
 ```
+## 5.How will you verify a word as a palindrome?
+### Algorithm
+### Psuedocode
+### Code
+
+
 
