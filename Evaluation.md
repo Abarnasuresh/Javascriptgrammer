@@ -400,6 +400,11 @@ Output
 7 8 9 10
 ```
 ## 18.Write a program in Javascript to make such a pattern like a pyramid with numbers increased by 1
+### Algorithm
+### Psuedocode
+### Code
+
+
 ```
     *
    ***
