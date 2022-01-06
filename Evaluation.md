@@ -355,7 +355,32 @@ Output
 ### Algorithm
 ### Psuedocode
 ### Code
-
+```
+let n = 4; // height of pattern
+let string = "";
+let count = 1;
+// External loop
+for (let i = 1; i <= n; i++) {
+  // Internal loop
+  for (let j = 1; j <= i; j++) {
+    string += count;
+    count++;
+  }
+  string += "\n";
+}
+console.log(string);
+```
+Output
+```
+1
+2 3
+4 5 6
+7 8 9 10
+```
+## 18.Write a program in Javascript to make such a pattern like a pyramid with numbers increased by 1
+### Algorithm
+### Psuedocode
+### Code
 
 
 
