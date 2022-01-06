@@ -218,6 +218,11 @@ Output
 ```
 ## 9.Write a program to calculate the sum of the first 10 natural numbers?
 ### Algorithm
+* Start the program
+* Initialize a variable for sum s=0
+* iterate a for loop from 1 to 10 for(i=1;i<=10;i++)
+* Increment the value of s by one
+* Print the result
 ### Psuedocode
 ### Code
 ```
@@ -442,6 +447,10 @@ Output
    ***
     *
 ```
+
+
+
+
 
 
 
