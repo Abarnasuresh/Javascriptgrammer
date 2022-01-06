@@ -67,9 +67,9 @@ false
 ## 3.How would you reverse a string in JavaScript?
 ### Algorithm
 * Create a function reversestring(str)
-* Use the split method to return a new array split("")
+* Use the split method to return a new array split(" ")
 * Use the reverse method to reverse the new created array reverse()
-* Use the join method to join all elements of the array into a string join("")
+* Use the join method to join all elements of the array into a string join(" ")
 * Return the reversed string.
 ### Psuedocode
 ### Code
@@ -85,6 +85,15 @@ output
 ```
 ## 4.How would you reverse words in a sentence?
 ### Algorithm
+* Start the program
+* Create a function reverseInplace(str)
+* Create an empty array to store the string into array
+* Create an empty string that will store the new reversed string
+* Create the for loop
+  (i) Get the length of the string 
+* As long i is less than the length the loop get repeated 
+  (ii) Increament i after each iteration
+* Return the reversed string
 ### Psuedocode
 ### Code
 
