@@ -66,6 +66,11 @@ false
 ```
 ## 3.How would you reverse a string in JavaScript?
 ### Algorithm
+* Create a function reversestring(str)
+* Use the split method to return a new array split("")
+* Use the reverse method to reverse the new created array reverse()
+* Use the join method to join all elements of the array into a string join("")
+* Return the reversed string.
 ### Psuedocode
 ### Code
 ```
