@@ -10,18 +10,24 @@ Output
 ### Algorithm
 ### Psuedocode
 ### Code
-``
+
+```
 let a=true;
 let b=1;
 let c=true;
 console.log(a==b);//first convert 1 into boolean then compare
 console.log(a===c);// both are of same type no conversion reqired simple compare.
 console.log(a===b);//no conversion perfomed and type of both operands are not same type so expected result is false
-``
+
+```
+
 Output
+
+```
 true
 true
 false
+```
 
 
 
