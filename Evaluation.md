@@ -256,6 +256,11 @@ Output
 ```
 ## 11.Write a program to merge two arrays? ([1,2,9,3,5,1,4,5], [11,54,70,40])
 ### Algorithm
+* Start the program
+* Initialize two variable to store the 2 array inputs
+* Create a for loop and repeat it untill value leads the length of 2nd array
+* Store the array element to the 1st array
+* Print the merged array
 ### Psuedocode
 ### Code
 ```
@@ -284,6 +289,10 @@ Output
 
 ## 14.Take a multidimensional array and flat the array?[1,4,2,3,[10,20,20], [100,500,700,600], [2000,1000]] 
 ### Algorithm
+* Start the program
+* Initialize a array variable multi to store the inputs
+* Create a method multiflat() to flat the array
+* Stop the program
 ### Psuedocode
 ### Code
 ```
