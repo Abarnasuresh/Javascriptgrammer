@@ -90,10 +90,10 @@ output
 * Create an empty array to store the string into array
 * Create an empty string that will store the new reversed string
 * Create the for loop
-(i) Get the length of the string 
-  * As long i is less than the length the loop get repeated 
-(ii) Increament i after each iteration
-  * Return the reversed string
+  (i) Get the length of the string 
+      * As long i is less than the length the loop get repeated 
+  (ii) Increament i after each iteration
+      * Return the reversed string
 ### Psuedocode
 ### Code
 
