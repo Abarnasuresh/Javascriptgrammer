@@ -313,11 +313,13 @@ Output
 {1: {…}, 2: {…}, 3: {…}}
 ```
 ## 16.Write a program in Javascript to display the pattern like right angle triangle using an asterisk.The pattern like:
+```
 *
 **
 ***
 ****
 *****
+```
 ### Algorithm
 ### Psuedocode
 ### Code
