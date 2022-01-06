@@ -231,6 +231,11 @@ Output
 ```
 Sum of first 10 natural numbers:55
 ```
+## 10.Write a program to print the sum of the even and odd numbers for a given number? (100)?
+### Algorithm
+### Psuedocode
+### Code
+
 
 
 
