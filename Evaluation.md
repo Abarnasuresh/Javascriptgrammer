@@ -211,10 +211,12 @@ let uniqueChars = chars.filter((c, index) => {
 
 console.log(uniqueChars);
 ```
+
 Output:
 ````
 [1, 2, 9, 4, 5, 8, 3]
 ```
+
 
 
 
