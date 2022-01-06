@@ -168,7 +168,7 @@ console.log("=====");
 console.log(a);
 console.log(c);
 ```
-Output:
+Output
 ```
 [ -1, 0, 1, 2, 3, 4, 5 ]
 =====
@@ -194,7 +194,7 @@ const rndInt=
 Math.floor(Math.random() * 5) + 1
 console.log(rndInt)
 ```
-Output:
+Output
 ```
 2
 ```
@@ -212,7 +212,7 @@ let uniqueChars = chars.filter((c, index) => {
 console.log(uniqueChars);
 ```
 
-Output:
+Output
 ```
 [1, 2, 9, 4, 5, 8, 3]
 ```
@@ -235,9 +235,25 @@ Sum of first 10 natural numbers:55
 ### Algorithm
 ### Psuedocode
 ### Code
-
-
-
+```
+var n = 100;
+var oddSum = 0;
+var evenSum = 0;
+var i = 1; // initialization
+while(i <= n){ // condition
+  if(i % 2 == 0){
+    evenSum += i;
+  } else {
+    oddSum += i;
+  }
+  i++; // incrementation
+}
+console.log(oddSum, evenSum);
+```
+Output
+```
+2500 2550
+```
 
 
 
