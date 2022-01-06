@@ -392,6 +392,7 @@ Output
 ### Algorithm
 ### Psuedocode
 ### Code
+```
 let n = 5;
 let string = "";
 // Upside pyramid
