@@ -138,7 +138,9 @@ const value=validatePalin(string);
 console.log(value);
 ```
 Output
-
-
+## 6.Write your own program to explain the difference between forEach and map?
+### Algorithm
+### Psuedocode
+### Code
 
 
