@@ -92,12 +92,10 @@ output
 * Create the for loop
 
   i).Get the length of the string 
-  
-      * As long i is less than the length the loop get repeated 
+  * As long i is less than the length the loop get repeated 
       
   ii).Increament i after each iteration
-  
-      * Return the reversed string
+  * Return the reversed string
 ### Psuedocode
 ### Code
 
