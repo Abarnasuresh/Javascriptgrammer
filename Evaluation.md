@@ -211,9 +211,9 @@ let uniqueChars = chars.filter((c, index) => {
 
 console.log(uniqueChars);
 ```
-Output:
 
-````
+Output:
+```
 [1, 2, 9, 4, 5, 8, 3]
 ```
 ## 9.Write a program to calculate the sum of the first 10 natural numbers?
