@@ -272,6 +272,20 @@ Output
 ```
 [1, 2, 9, 3, 5, 1, 4, 5, 11, 54, 70, 40]
 ```
+## 12.Remove duplicate from an array of an object by id and name? a. [{id: 1, name: ‘Stephen covey’ }, {id: 2, name: ‘Robin Sharma’ }, {id: 3, name: ‘Tolstoy’}, {id: 3, name: ‘Tolstoy’}, {id: 5, name: ‘James clear’}] 
+### Algorithm
+### Psuedocode
+### Code
+
+## 13.Compare two objects, If all properties are equal return true or return false? a. ({id: 1, name: “edison”}, {id: 1, name: “edison”}) b. ({id: 1, name: “edison”}, {id: 2, name: “edison”}) 
+### Algorithm
+### Psuedocode
+### Code
+
+## 14.Take a multidimensional array and flat the array?[1,4,2,3,[10,20,20], [100,500,700,600], [2000,1000]] 
+### Algorithm
+### Psuedocode
+### Code
 
 
 
