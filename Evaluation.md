@@ -89,7 +89,7 @@ output
 * Create a function reverseInplace(str)
 * Create an empty array to store the string into array
 * Create an empty string that will store the new reversed string
-* Create the for loop
+* Create the forloop
 
   i).Get the length of the string 
   * As long i is less than the length the loop get repeated 
@@ -116,6 +116,11 @@ jdk ehf dba
 ```
 ## 5.How will you verify a word as a palindrome?
 ### Algorithm
+* Initialize the function validatepalin
+* Create a variable length ln to get the length of the given string
+* Create a forloop to reverse the string
+* Compare the reverse string with the actual string if both are same return true else return false
+* Stop the program
 ### Psuedocode
 ### Code
 ```
