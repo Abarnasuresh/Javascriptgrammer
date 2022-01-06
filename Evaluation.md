@@ -202,5 +202,19 @@ Output:
 ### Algorithm
 ### Psuedocode
 ### Code
+```
+let chars = [1,2,9,4,5,8,3,5,1,4,5];
+
+let uniqueChars = chars.filter((c, index) => {
+    return chars.indexOf(c) === index;
+});
+
+console.log(uniqueChars);
+```
+Output:
+````
+[1, 2, 9, 4, 5, 8, 3]
+```
+
 
 
