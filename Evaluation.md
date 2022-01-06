@@ -335,6 +335,12 @@ Output
 *****
 ```
 ### Algorithm
+* Start the number of rows
+* Iterate the rows by creating an outer loop from 1 to n 
+     for(i=1;i<n,i++)
+* Iterate the colums run an inner loop from 0 to i-1
+     for(k=0;k<i;k++)
+* Print star
 ### Psuedocode
 ### Code
 ```
