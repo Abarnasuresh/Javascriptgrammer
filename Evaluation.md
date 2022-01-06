@@ -217,7 +217,20 @@ Output:
 [1, 2, 9, 4, 5, 8, 3]
 ```
 ## 9.Write a program to calculate the sum of the first 10 natural numbers?
-
+### Algorithm
+### Psuedocode
+### Code
+```
+let s = 0;
+for (i = 1; i <= 10; i++) {
+  s = s + i;
+}
+console.log("Sum of first 10 natural numbers:" + s);
+```
+Output
+```
+Sum of first 10 natural numbers:55
+```
 
 
 
