@@ -118,6 +118,22 @@ jdk ehf dba
 ### Algorithm
 ### Psuedocode
 ### Code
+```
+function validatePalin(str){
+const len=string.length;
+for(let i=0;i<len/2;i++){
+if(string[i]!==string[len-1-i]){
+alert("it is not a palindrome");
+}
+}
+alert("it is a palindrome");
+}
+const string=prompt("enter a string number:");
+const value=validatePalin(string);
+console.log(value);
+```
+Output
+
 
 
 
