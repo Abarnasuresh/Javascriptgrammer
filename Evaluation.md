@@ -299,9 +299,28 @@ Output
 ### Algorithm
 ### Psuedocode
 ### Code
-
-
-
+```
+const arr= [ {id:1,name:"edison"},
+{ id:2,name:"aanand"},
+{id:3,name:"vasanth"}
+]
+let result=arr.reduce((prev,current)=>{
+prev [current.id]=current;
+return prev;},{});console.log(result)
+```
+Output
+```
+{1: {…}, 2: {…}, 3: {…}}
+```
+## 16.Write a program in Javascript to display the pattern like right angle triangle using an asterisk.The pattern like:
+*
+**
+***
+****
+*****
+### Algorithm
+### Psuedocode
+### Code
 
 
 
