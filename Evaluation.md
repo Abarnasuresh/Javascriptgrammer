@@ -367,6 +367,14 @@ Output
 7 8 9 10
 ```
 ### Algorithm
+* Input the number of rows A 
+* Initialize count=1
+* Iterate the rows by creating outer loop from 1 to n
+   for(i=1;i<=n;i++)
+* Iterate the column by inner loop from 1 to i
+   for(j=1;j<=i;j++)
+* Print the count value
+* Increament the count by 1
 ### Psuedocode
 ### Code
 ```
