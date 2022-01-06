@@ -323,6 +323,38 @@ Output
 ### Algorithm
 ### Psuedocode
 ### Code
+```
+let n=5;
+let string="";
+for(let i=1; i<=n; i++){
+for (let j=0; j<n-i; j++){
+string+="";
+}
+for(let k =0; k<i; k++){
+string+="*";
+}
+string+="\n"
+}
+console.log(string);
+```
+Output
+```
+*
+**
+***
+****
+*****
+```
+## 17.Write a program in Javascript to make such a pattern like right angle triangle with number increased by 1
+```
+1
+2 3
+4 5 6
+7 8 9 10
+```
+### Algorithm
+### Psuedocode
+### Code
 
 
 
