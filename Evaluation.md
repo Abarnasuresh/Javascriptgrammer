@@ -140,6 +140,15 @@ console.log(value);
 Output
 ## 6.Write your own program to explain the difference between forEach and map?
 ### Algorithm
+* Start the program
+* Create a function practice()
+* Create a new array element a[] to store input value
+* Create two empty array elements b[] c[]
+* Create for each method for given array input and store in b
+* Print b
+* Create a map method for the given input array and store the value in c 
+* Print c
+* Stop the program
 ### Psuedocode
 ### Code
 ```
@@ -159,7 +168,7 @@ console.log("=====");
 console.log(a);
 console.log(c);
 ```
-output:
+Output:
 ```
 [ -1, 0, 1, 2, 3, 4, 5 ]
 =====
@@ -171,9 +180,24 @@ undefined
 ```
 ## 7.Generate a random number between 1 to 5?
 ### Algorithm
+* Start the program
+* Create a variable rndInt
+* Create the method math.floor() to print random number 1 to 5
+* 1 is the start number
+* 5 is the number of possible results(1+start(5)-end(1))
+* Print the output
+* Stop the program
 ### Psuedocode
 ### Code
-
+```
+const rndInt=
+Math.floor(Math.random() * 5) + 1
+console.log(rndInt)
+```
+Output:
+```
+2
+```
 
 
 
