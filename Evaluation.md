@@ -28,6 +28,16 @@ true
 true
 false
 ```
+## 3.How would you reverse a string in JavaScript?
+### Algorithm
+### Psuedocode
+### Code
+```
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+reverseString("hello");
+```
 
 
 
