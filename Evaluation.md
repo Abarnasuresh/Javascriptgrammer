@@ -258,6 +258,20 @@ Output
 ### Algorithm
 ### Psuedocode
 ### Code
+```
+const merge=(yes,no)=>{
+for(let i=0; i< no.length; i++){
+yes.push(no[i]);
+}
+return yes;
+}
+let merged=merge([1,2,9,3,5,1,4,5],[11,54,70,40]);
+console.log(merged);
+```
+Output
+```
+[1, 2, 9, 3, 5, 1, 4, 5, 11, 54, 70, 40]
+```
 
 
 
