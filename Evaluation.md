@@ -38,6 +38,14 @@ function reverseString(str) {
 }
 reverseString("hello");
 ```
+output
+```
+'olleh'
+```
+## 4.How would you reverse words in a sentence?
+### Algorithm
+### Psuedocode
+### Code
 
 
 
