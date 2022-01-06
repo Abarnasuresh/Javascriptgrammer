@@ -295,7 +295,10 @@ Output
 ```
 [1, 4, 2, 3, 10, 20, 20, 100, 500, 700, 600, 2000, 1000]
 ```
-
+## 15.Group by the id of the following array of objects using the Array.reduce method? [{id: 1, name: ‘edison’ }, {id: 2, name: ‘Annand’ }, {id: 3, name: ‘Vasnath’}]
+### Algorithm
+### Psuedocode
+### Code
 
 
 
