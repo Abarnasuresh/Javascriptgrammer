@@ -360,6 +360,10 @@ const haveCompare=function(obj1,obj2){
 };
 console.log(haveCompare(obj1,obj2));
 ```
+Output
+```
+false
+```
 ## 14.Take a multidimensional array and flat the array?[1,4,2,3,[10,20,20], [100,500,700,600], [2000,1000]] 
 ### Algorithm
 * Start the program
@@ -595,10 +599,14 @@ Output
    ***
     *
 ```
-
-
-HNJ
-
-
+## 20.Explain following terms
+#### a.console.log
+#### b.console.dir
+#### c.console.count
+#### d.console.table
+#### e.console.time/timeLog/timeEnd
+#### f.console.trace
+#### g.console.group/groupEnd
+#### h.console.asser
 
 
