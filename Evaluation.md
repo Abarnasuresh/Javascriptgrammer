@@ -325,6 +325,14 @@ Output
 ### Psuedocode
 ### Code
 ```
+const removeObj=[{id:1,name:"stephen covey"},{id:2,name:"robin sharma"},{
+ id:3,name:"Tolstoy"},{id:3,name:"Tolstoy"},{id:5,name:"james clear"}];
+const dupArr=removeObj.map(item=>{
+ return [item.name,item]
+});
+const maparr=new Map(dupArr);
+const result=[...maparr.values()];
+console.log(result);
 ```
 Output
 ```
