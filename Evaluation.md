@@ -322,6 +322,12 @@ Output
 ```
 ## 12.Remove duplicate from an array of an object by id and name? a. [{id: 1, name: ‘Stephen covey’ }, {id: 2, name: ‘Robin Sharma’ }, {id: 3, name: ‘Tolstoy’}, {id: 3, name: ‘Tolstoy’}, {id: 5, name: ‘James clear’}] 
 ### Algorithm
+* Start the program 
+* Initialize an array to store the input values 
+* Create an new array to store the duplicates
+* Create a map() function to remove the duplicates 
+* Print the result 
+* Stop the program
 ### Psuedocode
 ### Code
 ```
@@ -340,6 +346,10 @@ Output
 ```
 ## 13.Compare two objects, If all properties are equal return true or return false? a. ({id: 1, name: “edison”}, {id: 1, name: “edison”}) b. ({id: 1, name: “edison”}, {id: 2, name: “edison”}) 
 ### Algorithm
+* Start the program
+* Initialize two arrays obj1[] and obj2[] to store the inputs
+* Store the input values as key values in new array
+* Compare the length of two array keys are equal print true else print false
 ### Psuedocode
 ### Code
 ```
