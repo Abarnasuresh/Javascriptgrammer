@@ -329,7 +329,24 @@ Output
 ### Algorithm
 ### Psuedocode
 ### Code
-
+```
+const obj1={id:1,name:"edison"}
+const obj2={id:2,name:"edison"}
+const haveCompare=function(obj1,obj2){
+ const obj1keys=Object.keys(obj1);
+ const obj2Keys=Object.keys(obj2);
+ if(obj1keys.length !==obj2Keys.length){
+ return true
+ }
+ for(let key of obj1keys){
+ if(obj1[key]!==obj2[key]){
+ return false;
+ }
+ }
+ return true;
+};
+console.log(haveCompare(obj1,obj2));
+```
 ## 14.Take a multidimensional array and flat the array?[1,4,2,3,[10,20,20], [100,500,700,600], [2000,1000]] 
 ### Algorithm
 * Start the program
