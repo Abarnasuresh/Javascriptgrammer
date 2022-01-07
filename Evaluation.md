@@ -229,7 +229,7 @@ Output
 * Stop the program
 ### Psuedocode
 ### Code
-
+```
 let chars = [1,2,9,4,5,8,3,5,1,4,5];
 
 let uniqueChars = chars.filter((c, index) => {
