@@ -324,7 +324,12 @@ Output
 ### Algorithm
 ### Psuedocode
 ### Code
-
+```
+```
+Output
+```
+[{…}, {…}, {…}, {…}]
+```
 ## 13.Compare two objects, If all properties are equal return true or return false? a. ({id: 1, name: “edison”}, {id: 1, name: “edison”}) b. ({id: 1, name: “edison”}, {id: 2, name: “edison”}) 
 ### Algorithm
 ### Psuedocode
