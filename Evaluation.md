@@ -14,7 +14,6 @@
 * Stop the program
 ### Psuedocode
 ### Code
-
 ```
 function checkPrime(num) 
 { 
@@ -67,7 +66,6 @@ true
 * Stop the program
 ### Psuedocode
 ### Code
-
 ```
 let a=true;
 let b=1;
@@ -119,7 +117,6 @@ output
   * Return the reversed string
 ### Psuedocode
 ### Code
-
 ```
 function reverseInPlace(str) {
     var words = [];
