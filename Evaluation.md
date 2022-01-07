@@ -55,6 +55,16 @@ true
 * == is used for comparison between two variables irrespective of the datatype of variable.
 * === is used for comparision between two variables but this will check strict type, which means it will check datatype and compare two values.
 ### Algorithm
+* Start the program
+* Declare the variable ‘a’ and assign the value as true
+* Declare the variable ‘b’ and assign the value as 1
+* Declare the variable ‘c’ and assign the value as true
+* Use console.log() function for comparing the variables
+* In the first step, check if a==b. It first converts 1 into Boolean and then compare the values
+* In the second step, check if a===c. In this case, both are of same type. So, no conversion required. It simply compares the values
+* In the third step, check if a===b. In this case, no conversion performed, because type of operands is of not the same type
+* Print the output
+* Stop the program
 ### Psuedocode
 ### Code
 
@@ -211,9 +221,15 @@ Output
 ```
 ## 8.Remove duplicate from the following array? ([1,2,9,4,5,8,3,5,1,4,5])
 ### Algorithm
+* Start the program
+* Declare an array ‘chars’ and define the values [1,2,9,4,5,8,3,5,1,4,5]
+* Define the variable ‘uniqueChars’ and use the filter() function to perform the deduplication function
+* Find the index value using the chars.indexOf() function
+* Print the output
+* Stop the program
 ### Psuedocode
 ### Code
-```
+
 let chars = [1,2,9,4,5,8,3,5,1,4,5];
 
 let uniqueChars = chars.filter((c, index) => {
@@ -249,6 +265,17 @@ Sum of first 10 natural numbers:55
 ```
 ## 10.Write a program to print the sum of the even and odd numbers for a given number? (100)?
 ### Algorithm
+* Start the program
+* Declare the variable ‘n’ and assign the value as 100
+* Declare the variable ‘oddSum’ and assign the value as 0
+* Declare the variable ‘evenSum’ and assign the value as 0
+* Declare the variable ‘i’ and assign the value as 1
+* Use the while loop for checking the value of ‘i’ less than ‘n’
+* If yes, then find the modulo division of ‘i’ by 2 and if equals 0, then add the ‘evenSum’ value with the value of ‘i’
+* If not, add the ‘oddSum’ value with the value of ‘i’
+* Increment the value of ‘i’ at the end of the while loop
+* Print the output
+* Stop the program
 ### Psuedocode
 ### Code
 ```
@@ -322,6 +349,13 @@ Output
 ```
 ## 15.Group by the id of the following array of objects using the Array.reduce method? [{id: 1, name: ‘edison’ }, {id: 2, name: ‘Annand’ }, {id: 3, name: ‘Vasnath’}]
 ### Algorithm
+* Start the program
+* Declare a constant array ‘arr’ and assign the values of ‘id’ and ‘name’
+* Declare the variable ‘result’ and use the reduce() function to find the previous and current array values
+* Assign the current value to the previous value of current.id
+* Return the previous value at the end of the function
+* Print the output
+* Stop the program
 ### Psuedocode
 ### Code
 ```
@@ -346,12 +380,15 @@ Output
 *****
 ```
 ### Algorithm
-* Start the number of rows
-* Iterate the rows by creating an outer loop from 1 to n 
-     for(i=1;i<n,i++)
-* Iterate the colums run an inner loop from 0 to i-1
-     for(k=0;k<i;k++)
-* Print star
+* Start the program
+* Declare a variable ‘n’ and assign the value as 5
+* Declare an empty string variable ‘string’ with null value
+* Use two ‘for loops’ and check the conditions if ‘i’ is less than or equal to ‘n’ and ‘j’ is less than ‘n-1’
+* If yes, then add an empty space with the ‘string’ value, else exit from the first for loop
+* Use another for loop and check the condition if ‘k’ is less than ‘i’
+* If yes, add * to the ‘string’ value, else exit the for loop
+* Print the output
+* Stop the program
 ### Psuedocode
 ### Code
 ```
@@ -424,6 +461,16 @@ Output
  7 8 9 10 
 ```
 ### Algorithm
+* Start the program
+* Declare an empty string variable ‘number’ with null value
+* Declare a variable ‘count’ and assign the value as 1
+* Use two ‘for loops’ and check the conditions if ‘i’ is less than 5 and ‘j’ is less than or equal to ‘5-i’
+* If yes, then add an empty space with the ‘number’ value, else exit from the first for loop
+* Use another for loop and check the condition if ‘k’ is less than ‘2 * i - i’
+* If yes, add the value of variable ‘count’ with number and increment the variable ‘count
+* Finally, add an empty space with the ‘number’ value, else exit from the for loop
+* Print the output
+* Stop the program
 ### Psuedocode
 ### Code
 ```
@@ -462,6 +509,19 @@ Output
     *
 ```
 ### Algorithm
+* Start the program
+* Declare an empty string variable ‘string’ with null value
+* Declare a variable ‘n’ and assign the value as 5
+* Use two ‘for loops’ and check the conditions if ‘i’ is less than ‘n’ and ‘j’ is greater than ‘i’
+* If yes, then add an empty space with the ‘string’ value, else exit from the first for loop
+* Use another for loop and check the condition if ‘k’ is less than ‘i*2-1’
+* If yes, add * to the ‘string’ value, else exit the for loop
+* Again, use two ‘for loops’ and check the conditions if ‘i’ is less than ‘n-1’ and ‘j’ is less than ‘i’
+* If yes, then add an empty space with the ‘string’ value, else exit from the first for loop
+* Use another for loop and assign the value of ‘k’ is equal to ((n-i) * 2-1) & check the condition if ‘k’ is greater than 0 and decrement the variable ‘k’
+* If yes, add * to the ‘string’ value, else exit the for loop
+* Print the output
+* Stop the program
 ### Psuedocode
 ### Code
 ```
