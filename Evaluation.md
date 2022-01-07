@@ -1,6 +1,17 @@
 # Javascript Evaluation 1
 ## 1.Check prime number?
 ### Algorithm
+*. Start the program
+*. Define the function checkPrime() with one argument as num
+*. If num is equal to 2, then return true
+*. Else if, the num is greater than 1, then use “for loop” and declare a variable i
+*. In for loop, find the modulo division of which num is not equal to zero and return true
+*. Else if, the num equal to i2, return the result as false
+*. Else, return false and exit out of the second if condition
+*. If num is not greater than 1, then return false
+*. Use Console.log() function and call the checkPrime() function
+*. Print the output
+*. Stop the program
 ### Psuedocode
 ### Code
 
