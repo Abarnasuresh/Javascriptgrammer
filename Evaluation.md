@@ -13,6 +13,21 @@
 * Print the output
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+ FUNCTION checkprime(num)
+ IF(num===2)
+ PRINT TRUE
+ ELSE IF(num>1)
+ FOR i=2;i<n;i++
+ IF(num % i !== 0)
+ PRINT FALSE
+ ELSE IF(num==i*1)
+ PRINT FALSE
+ ELSE
+ PRINT FALSE
+ PRINT(check prime(7));
+ ```
 ### Code
 ```
 function checkPrime(num) 
@@ -65,6 +80,17 @@ true
 * Print the output
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+INIT a
+INIT b,c
+COMPARE a == b
+  PRINT TRUE
+  CHECK a == c
+  PRINT TRUE
+  THEN
+  END
+```
 ### Code
 ```
 let a=true;
@@ -75,7 +101,6 @@ console.log(a===c);// both are of same type no conversion reqired simple compare
 console.log(a===b);//no conversion perfomed and type of both operands are not same type so expected result is false
 
 ```
-
 Output
 
 ```
@@ -91,6 +116,13 @@ false
 * Use the join method to join all elements of the array into a string join(" ")
 * Return the reversed string.
 ### Psuedocode
+```
+BEGIN
+FUNCTION reversestring(str)
+PRINT str.split("").reverse().join("");
+FUNCTION END
+REVERSE STRING ("hello");
+```
 ### Code
 ```
 function reverseString(str) {
@@ -116,6 +148,10 @@ output
   ii).Increament i after each iteration
   * Return the reversed string
 ### Psuedocode
+```
+BEGIN
+ FUNCTION reverseInplace(str)
+ 
 ### Code
 ```
 function reverseInPlace(str) {
@@ -156,6 +192,7 @@ const value=validatePalin(string);
 console.log(value);
 ```
 Output
+
 ## 6.Write your own program to explain the difference between forEach and map?
 ### Algorithm
 * Start the program
@@ -168,6 +205,9 @@ Output
 * Print c
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+
 ### Code
 ```
 function practice (i){
@@ -323,7 +363,7 @@ Output
 * Initialize an array to store the input values 
 * Create an new array to store the duplicates
 * Create a map() function to remove the duplicates 
-* Print the result 
+* Print the result
 * Stop the program
 ### Psuedocode
 ### Code
