@@ -153,7 +153,7 @@ output
 ```
 BEGIN
  FUNCTION reverseInplace(str)
- 
+```
 ### Code
 ```
 function reverseInPlace(str) {
