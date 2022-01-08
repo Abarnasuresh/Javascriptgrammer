@@ -209,7 +209,7 @@ Output
 ### Psuedocode
 ```
 BEGIN
-
+```
 ### Code
 ```
 function practice (i){
