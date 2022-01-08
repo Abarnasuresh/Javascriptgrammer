@@ -123,6 +123,7 @@ PRINT str.split("").reverse().join("");
 FUNCTION END
 REVERSE STRING ("hello");
 ```
+
 ### Code
 ```
 function reverseString(str) {
@@ -134,6 +135,7 @@ output
 ```
 'olleh'
 ```
+
 ## 4.How would you reverse words in a sentence?
 ### Algorithm
 * Start the program
