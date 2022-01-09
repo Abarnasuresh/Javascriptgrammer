@@ -638,6 +638,17 @@ Output
 * Increament the count by 1
 ### Psuedocode
 ```
+BEGIN
+INIT n
+INIT string
+INIT count
+FOR(let i = 1; i <= n; i++)
+FOR(let j = 1; j <= i; j++) 
+STRING+= count;
+ COUNT++;
+ STRING +="\n"
+ PRINT string
+ END
 ```
 ### Code
 ```
@@ -681,6 +692,20 @@ Output
 * Print the output
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+INIT number
+INIT count
+FOR(let i = 1;i<5;i++)
+FOR(let j = 1;j<= 5 - i;j++)
+NUMBER+= " ";
+FOR(k = 0; k < 2*i-i ; k++)
+NUMBER +=count
+COUNT++;
+NUMBER+= " ";
+NUMBER+="\n"
+PRINT number
+```
 ### Code
 ```
 let number = "";
@@ -732,6 +757,19 @@ Output
 * Print the output
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+INIT n
+INIT string
+FOR(let i = 1; i <= n; i++)
+FOR(let j = n; j > i; j--) 
+STRING+= " ";
+FOR(let k = 0; k < i * 2 - 1; k++) 
+FOR(let i = 1; i <= n - 1; i++) 
+FOR(let j = 0; j < i; j++)
+STRING+= " ";
+FOR(let k = 0; k < i * 2 - 1; k++)
+
 ### Code
 ```
 let n = 5;
