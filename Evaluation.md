@@ -153,6 +153,14 @@ output
 ```
 BEGIN
  FUNCTION reverseInplace(str)
+ INIT=[];
+ INIT=srt.split("\s+");
+ RESULT="";
+ FOR(i=0;i<length;i++)
+ PRINT RESULT=words[i].split('').reverse.join('');
+ FUNCTION END
+ PRINT result
+
 ```
 ### Code
 ```
@@ -178,6 +186,19 @@ jdk ehf dba
 * Compare the reverse string with the actual string if both are same return true else return false
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+FUNCTION validatepalin(str)
+LEN=string.length
+FOR(i=0;i<len/2;i++)
+IF(string[i]!=string[len-1-i])
+ALERT("not a prime")
+ALERT("prime")
+FUNCTION END
+STING=enter string
+VALUE=validate palin (string)
+PRINT("value")
+```
 ### Code
 ```
 function validatePalin(str){
@@ -194,7 +215,9 @@ const value=validatePalin(string);
 console.log(value);
 ```
 Output
-
+```
+its palindrome
+```
 ## 6.Write your own program to explain the difference between forEach and map?
 ### Algorithm
 * Start the program
@@ -209,6 +232,18 @@ Output
 ### Psuedocode
 ```
 BEGIN
+FUNCTION practice(i)
+RETURN i+1
+INIT a
+INIT b
+PRINT("====")
+PRINT(a)
+PRINT(b)
+c=a.map(practice)
+PRINT("====")
+PRINT(a)
+PRINT(c)
+FUNCTION END
 ```
 ### Code
 ```
@@ -248,6 +283,12 @@ undefined
 * Print the output
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+RNDINIT= mat.floor(math.random()*+1
+PRINT(rndint)
+END
+```
 ### Code
 ```
 const rndInt=
@@ -267,6 +308,14 @@ Output
 * Print the output
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+INIT chars
+INIT uniquechars
+RETURN chars.indexof(c)===index;
+PRINT(uniquechars)
+END
+```
 ### Code
 ```
 let chars = [1,2,9,4,5,8,3,5,1,4,5];
@@ -290,6 +339,14 @@ Output
 * Increment the value of s by one
 * Print the result
 ### Psuedocode
+```
+BEGIN
+INIT S
+FOR(i = 1; i <= 10; i++) 
+S=s+i
+PRINT(s)
+END
+```
 ### Code
 ```
 let s = 0;
@@ -316,6 +373,21 @@ Sum of first 10 natural numbers:55
 * Print the output
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+INIT n
+INIT oddsum
+INIT evensum
+INIT i
+WHILE(i <= n)
+IF(i % 2 == 0)
+EVENSUM +=i
+ELSE
+ODDSUM +=i
+I++;
+PRINT(oddsum,evensum)
+END
+```
 ### Code
 ```
 var n = 100;
@@ -344,6 +416,15 @@ Output
 * Store the array element to the 1st array
 * Print the merged array
 ### Psuedocode
+```
+BEGIN
+INIT merge=(yes,no)
+FOR(let i=0; i< no.length; i++)
+yes.push(no[i]);
+PRINT yes
+MERGED= merge([1,2,9,3,5,1,4,5],[11,54,70,40]);
+PRINT(merged)
+```
 ### Code
 ```
 const merge=(yes,no)=>{
@@ -368,6 +449,13 @@ Output
 * Print the result
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+INIT dupArr
+INIT maparr
+INIT result
+PRINT (result)
+```
 ### Code
 ```
 const removeObj=[{id:1,name:"stephen covey"},{id:2,name:"robin sharma"},{
@@ -390,6 +478,19 @@ Output
 * Store the input values as key values in new array
 * Compare the length of two array keys are equal print true else print false
 ### Psuedocode
+```
+BEGIN
+INIT obj1
+INIT obj2
+INIT havecompare
+INIT obj1key
+INIT obj2key
+IF(obj1keys.length !==obj2Keys.length)
+PRINT true
+IF (obj1[key]!==obj2[key])
+PRINT false
+PRINT(haveCompare(obj1,obj2))
+```
 ### Code
 ```
 const obj1={id:1,name:"edison"}
@@ -420,6 +521,11 @@ false
 * Create a method multiflat() to flat the array
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+INIT multi
+PRINT(Multi.flat(Infinity));
+```
 ### Code
 ```
 const Multi= [1,4,2,3,[10,20,20], [100,500,700,600],
@@ -440,6 +546,14 @@ Output
 * Print the output
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+INIT arr
+INIT result
+PREV[current.id]=current;
+PRINT prev;
+PRINT result
+```
 ### Code
 ```
 const arr= [ {id:1,name:"edison"},
@@ -473,6 +587,16 @@ Output
 * Print the output
 * Stop the program
 ### Psuedocode
+```
+BEGIN
+INIT n
+INIT string=" "
+FOR(let i=1; i<=n; i++)
+FOR(let j=0; j<n-i; j++)
+STRING +=" "
+STRING+="\n"
+PRINT(string);
+```
 ### Code
 ```
 let n=5;
@@ -513,6 +637,8 @@ Output
 * Print the count value
 * Increament the count by 1
 ### Psuedocode
+```
+```
 ### Code
 ```
 let n = 4; // height of pattern
