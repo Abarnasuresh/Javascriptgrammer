@@ -32,7 +32,7 @@ BEGIN
 ```
 function checkPrime(num) 
 { 
-if (num === 2) 
+if (num === 2)
 { 
 return true;
 }
