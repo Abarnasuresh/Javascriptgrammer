@@ -20,4 +20,26 @@ var numbers = ["one", "two", "three"];
 console.log(numbers);
 console.table(numbers);
 
-//console
+//console time() and timeEnd()
+  console.time();
+  for (let i = 0; i < 10; i++) {
+    // some code
+  }
+  console.timeEnd(); 
+  
+//console trace()
+  function java() {
+    function yavar() {
+      console.trace();
+    }
+    yavar();
+  }
+  
+  java();
+  
+  //console group() and groupEnd()
+  console.log("Hello world!");
+  console.group();
+  console.log("Hello again, this time inside a group!");
+  console.groupEnd();
+  console.log("and we are back."); 
