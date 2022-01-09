@@ -769,7 +769,15 @@ FOR(let i = 1; i <= n - 1; i++)
 FOR(let j = 0; j < i; j++)
 STRING+= " ";
 FOR(let k = 0; k < i * 2 - 1; k++)
-
+STRING +="*";
+STRING+= "\n";
+FOR(let i = 1; i <= n - 1; i++)
+FOR(let j = 0; j < i; j++) 
+STRING+= " ";
+FOR(let k = (n - i) * 2 - 1; k > 0; k--) 
+STRING+= "\n";
+PRINT(string)
+```
 ### Code
 ```
 let n = 5;
