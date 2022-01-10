@@ -12,7 +12,8 @@
 * Use Console.log() function and call the checkPrime() function
 * Print the output
 * Stop the program
-### Psuedocode
+
+**Psuedocode**
 ```
 BEGIN
  FUNCTION checkprime(num)
@@ -28,7 +29,7 @@ BEGIN
  PRINT FALSE
  PRINT(check prime(7));
  ```
-### Code
+**Code**
 ```
 function checkPrime(num) 
 { 
