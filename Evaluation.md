@@ -14,7 +14,7 @@
 * Stop the program
 
 **Psuedocode**
-```
+```javascript
 BEGIN
  FUNCTION checkprime(num)
  IF(num===2)
@@ -81,7 +81,7 @@ true
 * Print the output
 * Stop the program
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT a
 INIT b,c
@@ -93,7 +93,7 @@ COMPARE a == b
   END
 ```
 ### Code
-```
+```javascript
 let a=true;
 let b=1;
 let c=true;
@@ -117,7 +117,7 @@ false
 * Use the join method to join all elements of the array into a string join(" ")
 * Return the reversed string.
 ### Psuedocode
-```
+```javascript
 BEGIN
 FUNCTION reversestring(str)
 PRINT str.split("").reverse().join("");
@@ -126,7 +126,7 @@ REVERSE STRING ("hello");
 ```
 
 ### Code
-```
+```javascript
 function reverseString(str) {
     return str.split("").reverse().join("");
 }
@@ -151,7 +151,7 @@ output
   ii).Increament i after each iteration
   * Return the reversed string
 ### Psuedocode
-```
+```javascript
 BEGIN
  FUNCTION reverseInplace(str)
  INIT=[];
@@ -164,7 +164,7 @@ BEGIN
 
 ```
 ### Code
-```
+```javascript
 function reverseInPlace(str) {
     var words = [];
     words = str.split("\s+");
@@ -187,7 +187,7 @@ jdk ehf dba
 * Compare the reverse string with the actual string if both are same return true else return false
 * Stop the program
 ### Psuedocode
-```
+```javascript
 BEGIN
 FUNCTION validatepalin(str)
 LEN=string.length
@@ -201,7 +201,7 @@ VALUE=validate palin (string)
 PRINT("value")
 ```
 ### Code
-```
+```javascript
 function validatePalin(str){
 const len=string.length;
 for(let i=0;i<len/2;i++){
@@ -231,7 +231,7 @@ its palindrome
 * Print c
 * Stop the program
 ### Psuedocode
-```
+```javascript
 BEGIN
 FUNCTION practice(i)
 RETURN i+1
@@ -247,7 +247,7 @@ PRINT(c)
 FUNCTION END
 ```
 ### Code
-```
+```javascript
 function practice (i){
     return i+1;
 };
@@ -284,14 +284,14 @@ undefined
 * Print the output
 * Stop the program
 ### Psuedocode
-```
+```javascript
 BEGIN
 RNDINIT= mat.floor(math.random()*+1
 PRINT(rndint)
 END
 ```
 ### Code
-```
+```javascript
 const rndInt=
 Math.floor(Math.random() * 5) + 1
 console.log(rndInt)
@@ -309,7 +309,7 @@ Output
 * Print the output
 * Stop the program
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT chars
 INIT uniquechars
@@ -318,7 +318,7 @@ PRINT(uniquechars)
 END
 ```
 ### Code
-```
+```javascript
 let chars = [1,2,9,4,5,8,3,5,1,4,5];
 
 let uniqueChars = chars.filter((c, index) => {
@@ -340,7 +340,7 @@ Output
 * Increment the value of s by one
 * Print the result
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT S
 FOR(i = 1; i <= 10; i++) 
@@ -349,7 +349,7 @@ PRINT(s)
 END
 ```
 ### Code
-```
+```javascript
 let s = 0;
 for (i = 1; i <= 10; i++) {
   s = s + i;
@@ -374,7 +374,7 @@ Sum of first 10 natural numbers:55
 * Print the output
 * Stop the program
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT n
 INIT oddsum
@@ -390,7 +390,7 @@ PRINT(oddsum,evensum)
 END
 ```
 ### Code
-```
+```javascript
 var n = 100;
 var oddSum = 0;
 var evenSum = 0;
@@ -417,7 +417,7 @@ Output
 * Store the array element to the 1st array
 * Print the merged array
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT merge=(yes,no)
 FOR(let i=0; i< no.length; i++)
@@ -427,7 +427,7 @@ MERGED= merge([1,2,9,3,5,1,4,5],[11,54,70,40]);
 PRINT(merged)
 ```
 ### Code
-```
+```javascript
 const merge=(yes,no)=>{
 for(let i=0; i< no.length; i++){
 yes.push(no[i]);
@@ -450,7 +450,7 @@ Output
 * Print the result
 * Stop the program
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT dupArr
 INIT maparr
@@ -458,7 +458,7 @@ INIT result
 PRINT (result)
 ```
 ### Code
-```
+```javascript
 const removeObj=[{id:1,name:"stephen covey"},{id:2,name:"robin sharma"},{
  id:3,name:"Tolstoy"},{id:3,name:"Tolstoy"},{id:5,name:"james clear"}];
 const dupArr=removeObj.map(item=>{
@@ -479,7 +479,7 @@ Output
 * Store the input values as key values in new array
 * Compare the length of two array keys are equal print true else print false
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT obj1
 INIT obj2
@@ -493,7 +493,7 @@ PRINT false
 PRINT(haveCompare(obj1,obj2))
 ```
 ### Code
-```
+```javascript
 const obj1={id:1,name:"edison"}
 const obj2={id:2,name:"edison"}
 const haveCompare=function(obj1,obj2){
@@ -522,7 +522,7 @@ false
 * Create a method multiflat() to flat the array
 * Stop the program
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT multi
 PRINT(Multi.flat(Infinity));
@@ -547,7 +547,7 @@ Output
 * Print the output
 * Stop the program
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT arr
 INIT result
@@ -556,7 +556,7 @@ PRINT prev;
 PRINT result
 ```
 ### Code
-```
+```javascript
 const arr= [ {id:1,name:"edison"},
 { id:2,name:"aanand"},
 {id:3,name:"vasanth"}
@@ -588,7 +588,7 @@ Output
 * Print the output
 * Stop the program
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT n
 INIT string=" "
@@ -599,7 +599,7 @@ STRING+="\n"
 PRINT(string);
 ```
 ### Code
-```
+```javascript
 let n=5;
 let string="";
 for(let i=1; i<=n; i++){
@@ -638,7 +638,7 @@ Output
 * Print the count value
 * Increament the count by 1
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT n
 INIT string
@@ -652,7 +652,7 @@ STRING+= count;
  END
 ```
 ### Code
-```
+```javascript
 let n = 4; // height of pattern
 let string = "";
 let count = 1;
@@ -693,7 +693,7 @@ Output
 * Print the output
 * Stop the program
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT number
 INIT count
@@ -708,7 +708,7 @@ NUMBER+="\n"
 PRINT number
 ```
 ### Code
-```
+```javascript
 let number = "";
 let count=1;
 for (let i = 1;i<5;i++) {
@@ -758,7 +758,7 @@ Output
 * Print the output
 * Stop the program
 ### Psuedocode
-```
+```javascript
 BEGIN
 INIT n
 INIT string
@@ -780,7 +780,7 @@ STRING+= "\n";
 PRINT(string)
 ```
 ### Code
-```
+```javascript
 let n = 5;
 let string = "";
 // Upside pyramid
