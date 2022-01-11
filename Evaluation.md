@@ -823,12 +823,54 @@ Output
 ```
 ## 20.Explain following terms
 #### a.console.log
-#### b.console.dir
-#### c.console.count
-#### d.console.table
-#### e.console.time/timeLog/timeEnd
-#### f.console.trace
-#### g.console.group/groupEnd
-#### h.console.asser
+**code**
+```javascript
+//console log()
+
+var a = 2;
+console.log(a);
+
+//console dir()
+
+let object = { property1 : 1, property1 : 2, method : function(){} };
+console.dir(object);
+
+//console count()
+
+for (let i = 0; i < 5; i++) {
+  console.count("");
+}
+
+//console table()
+
+var numbers = ["one", "two", "three"];
+console.log(numbers);
+console.table(numbers);
+
+//console time() and timeEnd()
+  console.time();
+  for (let i = 0; i < 10; i++) {
+    // some code
+  }
+  console.timeEnd(); 
+  
+//console trace()
+  function java() {
+    function yavar() {
+      console.trace();
+    }
+    yavar();
+  }
+  
+  java();
+  
+  //console group() and groupEnd()
+  console.log("Hello world!");
+  console.group();
+  console.log("Hello again, this time inside a group!");
+  console.groupEnd();
+  console.log("and we are back."); 
+  ```
+
 
 
