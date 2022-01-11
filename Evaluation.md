@@ -30,7 +30,7 @@ BEGIN
  PRINT(check prime(7));
  ```
 **Code**
-```
+```javascript
 function checkPrime(num) 
 { 
 if (num === 2)
