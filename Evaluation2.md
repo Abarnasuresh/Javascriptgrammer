@@ -421,10 +421,29 @@ Output
 ```
 ## 12.What is Arity in Javascript? Explain with a real time example.
 ### Algorithm
+* Create a funciton with 3 parameters.
+* Get the length of details and assign to a variable.
+* Print the variable.
 ### Psudocode
+```javascript
+BEGIN
+FUNCTION Details(age,name,place)
+FUNCTION END
+INIT arity=Details.length
+PRINT(arity);
+```
 ### code
-Output
+```javascript
+function Details(age,name,place){
 
+}
+let arity=Details.length;
+console.log(arity);
+```
+Output
+```
+3
+```
 ## 13.What is Currying in Javascript? Explain with a real time example.
 ### Algorithm
 ### Psudocode
@@ -474,3 +493,4 @@ Anonymous functions are often arguments being passed to higher-order functions o
 The meaning of the word 'anonymous' defines something that is unknown or has no identity.
  In JavaScript, an anonymous function is that type of function that has no name or we can say which is without any name.
  When we create an anonymous function, it is declared without any identifier.
+## 16.List the differences between named function and assigning functions to variable with examples
