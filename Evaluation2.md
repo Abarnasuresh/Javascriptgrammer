@@ -258,6 +258,10 @@ Output
 Its not a function
 ```
 ## 5.Explain `this` keyword with an example?
+The JavaScript this keyword refers to the object it belongs to. It refers to current object.
+ * In a method, this refers to the owner object.
+ * Alone, this refers to the global object.
+ * In a function, this refers to the global object.
 ### Algorithm
 * Start the program
 * Create a function() and assign it to a variable person1
@@ -295,6 +299,9 @@ Output
 abi abarna
 ```
 ## 6.How ‘this’ inside the function and class?
+* In a function, this refers to the global object.
+* It is reuse functions in different execution contexts. It means, a function once defined can be invoked for different objects using the this keyword.
+* In a function, in strict mode, this is undefined.
 ### Algorithm
 * Start the program
 * Create a class called classmates
