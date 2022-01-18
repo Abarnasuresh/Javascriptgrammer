@@ -315,38 +315,47 @@ Output
 abi abarnais 21 years old!
 ```
 ## 7.Difference between map, reduce and filter methods? With an example
+## Map
 ### Algorithm
 ```
- //map
 * Start the program
 * Create the array
 * Use the arrow function to work on the map
 * Store the variable in the array 
 * Print the value
 * Stop the program
- //reduce
-* Start the program
-* Create array to assign variable
-* Create arrow function for work with reduce
-* Do something with acc value and converted to single value
-* Print the value
-* Stop the program
- //filter
-* Create a array assign to variable
-* Create arrow function for work with filter 
-* Work on some condition to filter the values
-* Print the values
 ```
 ### Psudocode
 ```javascript
-///map
 BEGIN
 INIT numbers
 SET map(n=> n * 2)
 INIT doubled
 PRINT(doubled)
 END
-//reduce
+```
+### code
+```javascript
+var numbers= [1,2,3,4,5];
+var doubled  = numbers.map(n => n * 2);
+console.log(doubled); // [2,4,6,8,10]
+```
+Output
+```
+[2, 4, 6, 8, 10]
+```
+## Reduce
+### Algorithm
+```
+* Start the program
+* Create array to assign variable
+* Create arrow function for work with reduce
+* Do something with acc value and converted to single value
+* Print the value
+* Stop the program
+```
+### Psudocode
+```javascript
 BEGIN
 INIT numbers
 INIT initialVal
@@ -354,7 +363,28 @@ INIT result
 SET reduce((accu, val) => val + accu , initialVal);
 PRINT(result)
 END
-//filter
+```
+### code
+```javascript
+var numbers = [1,2,3,4,5];
+var initialVal = 0;
+let result=numbers.reduce((accu, val) => val + accu , initialVal);
+console.log(result) // 15
+```
+Output
+```
+15
+```
+## filter
+### Algorithm
+```
+* Create a array assign to variable
+* Create arrow function for work with filter 
+* Work on some condition to filter the values
+* Print the values
+```
+### Psudocode
+```
 BEGIN
 INIT numbers
 INIT greaterThan2
@@ -364,27 +394,12 @@ END
 ```
 ### code
 ```javascript
-//map
-var numbers= [1,2,3,4,5];
-var doubled  = numbers.map(n => n * 2);
-console.log(doubled); // [2,4,6,8,10]
-//reduce
-var numbers = [1,2,3,4,5];
-var initialVal = 0;
-let result=numbers.reduce((accu, val) => val + accu , initialVal);
-console.log(result) // 15
-//filter
 var numbers = [1,2,3,4,5];
 var greaterThan2 = numbers.filter(n => n > 2);
 console.log(greaterThan2); // [3,4,5]
 ```
 Output
 ```javascript
-// map
-[2, 4, 6, 8, 10]
-//reduce
-15
-//filter
 [3, 4, 5]
 ```
 ## 8.Count Total number of zeros from 1 up to 50
