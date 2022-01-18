@@ -472,6 +472,9 @@ Output
 Output
 ## 11.In the Javascript function, what are the differences between call by value and reference?
 ## Call by value
+* When a variable is passed as a parameter to a function,
+* if any changes are made to the parameter,the original variable will remain unaffected.
+* This is known as call by value and this is true for all values having a primitive data type
 ### Algorithm
 * Start the program
 * Declare a variable a=4
@@ -508,6 +511,9 @@ Output
 4
 ```
 ## Call by reference
+* When a variable's reference(address) and not its value is passed to a function's parameter,
+* any changes made to the parameter will update the original variable reference.
+* This is known as call by reference and this is true for all values having a non-primitive data type.
 ### Algorithm
 * Start the program
 * Declare the variable c and d
