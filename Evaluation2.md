@@ -137,7 +137,12 @@ Output
 7
 ```
 ## 3.Explain about function Anatomy, Anonymous function and Assigning function to a variable with an example?
+## Anatomy function
 ### Algorithm
+* Create a function with name as cricketAcc and parameters as bat and helmet.                 
+* Return the sum of bat and helmet.     
+* Create a new variable call the function with new bat name and helmet name.    
+* Print the result and stop the program.
 ### Psudocode
 ```javascript
 //Anatomy function
@@ -146,14 +151,54 @@ FUNCTION cricketAcc
 RETURN bat+helmet
 INIT k
 PRINT k
+```
+### Code
+```
+function cricketAcc(bat,helmet)
+{
+return bat+helmet
+}
+let k=cricketAcc("honda bat ","suprme helmet");
+console.log(k)
+```
+Output
+```
+honda bat suprme helmet
+```
+## Anonymous function
 
+### Algorithm
+* Start the program.
+* Create a function without name and as a setTimeout event callback.
+* Print the message after some milliseconds.
+* Stop the program
+### Psudocode
+```javascript
 //Anonymous function
 BEGIN
 setTimeout(function ()
 PRINT ("Welcome to javascript")
 ,100
 END
-
+```
+### Code
+```javascript
+setTimeout(function () {
+    console.log("Welcome to javascript");
+}, 100);
+```
+Output
+```
+Welcome to javascript
+```
+## Assigning function to variable
+### Algorithm
+* Start the program.
+* Assign the function with parameters a and b to the variable s.
+* Multiply a and b then return.Instead of calling function we can call that variable.
+* Stop the program
+### Psudocode
+```
 //Assigning function to variable
 BEGIN
 INIT S
@@ -162,33 +207,14 @@ PRINT S
 END
 ```
 ### code
-```javascript
-// Anatomy function
-function cricketAcc(bat,helmet)
-{
-return bat+helmet
-}
-let k=cricketAcc("honda bat ","suprme helmet");
-console.log(k)
-
-//Anonymous function
-setTimeout(function () {
-    console.log("Welcome to javascript");
-}, 100);
-
-//Assigning function to variable
+```
 let s=function(a,b){
     return a*b;
   }
   console.log(s(4,5));
 ```
 Output
-```javascript
-//Anotomy function
-honda bat suprme helmet
-//Anonymous function
-Welcome to javascript
-//Assigning function to variable
+```
 20
 ```
 ## 4.Show an example of Safeguarding function parameters?
