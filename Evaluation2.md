@@ -11,7 +11,21 @@
    if no declare flag=true and print the number
 * Stop the program
 ### Psudocode
-
+```javascript
+BEGIN
+FUNCTION primeNumber
+INIT flag
+FOR(i = from; i <= to; i++)
+FOR(j = 2; j < i; j++) 
+IF(i % j == 0) 
+flag = false;
+break;
+ELSE
+flag = true;
+IF(flag) 
+PRINT i
+END
+```
 ### code
 ```javascript
 primeNumber(1, 200) 
@@ -245,17 +259,15 @@ abi abarna
 ### Psudocode
 ```javascript
 BEGIN
-class ClassMates{
-	constructor(name,age){
-    	this.name=name;
-      	this.age=age;
-    }
-  	displayInfo(){
-    	return this.name + "is " + this.age + " years old!";
-
-let classmate = new ClassMates("abi abarna",21);
-console.log(classmate.displayInfo());  // result: abi abarna is 21 years old!
-
+FUNCTION Classmates
+constructor(name,age)
+this.name=name;
+this.age=age;
+DISPLAYInfo()
+PRINT this.name + "is " + this.age + " years old!";
+INIT classmate
+PRINT(classmate.displayInfo())
+END
 ```
 ### code
 ```javascript
@@ -421,9 +433,11 @@ Output
 ```
 ## 12.What is Arity in Javascript? Explain with a real time example.
 ### Algorithm
+* Start the program
 * Create a funciton with 3 parameters.
 * Get the length of details and assign to a variable.
 * Print the variable.
+* Stop the program
 ### Psudocode
 ```javascript
 BEGIN
