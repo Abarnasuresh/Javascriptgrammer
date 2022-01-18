@@ -251,6 +251,12 @@ Its not a function
 ```
 ## 5.Explain `this` keyword with an example?
 ### Algorithm
+* Start the program
+* Create a function() and assign it to a variable person1
+* Assign two values for two variables
+* Call the values of the variable using this as object inside the function()
+* Print the output string
+* stop the program
 ### Psudocode
 ```javascript
 BEGIN
@@ -282,6 +288,11 @@ abi abarna
 ```
 ## 6.How ‘this’ inside the function and class?
 ### Algorithm
+* Start the program
+* Create a class called classmates
+* Initialize a constructor with the parameters
+* Using this as an object of the function assign the value of data members
+* Create the function displayinfo() and return the output using this as object for the class
 ### Psudocode
 ```javascript
 BEGIN
@@ -317,14 +328,12 @@ abi abarnais 21 years old!
 ## 7.Difference between map, reduce and filter methods? With an example
 ## Map
 ### Algorithm
-```
 * Start the program
 * Create the array
 * Use the arrow function to work on the map
 * Store the variable in the array 
 * Print the value
 * Stop the program
-```
 ### Psudocode
 ```javascript
 BEGIN
@@ -346,14 +355,12 @@ Output
 ```
 ## Reduce
 ### Algorithm
-```
 * Start the program
 * Create array to assign variable
 * Create arrow function for work with reduce
 * Do something with acc value and converted to single value
 * Print the value
 * Stop the program
-```
 ### Psudocode
 ```javascript
 BEGIN
@@ -377,12 +384,10 @@ Output
 ```
 ## filter
 ### Algorithm
-```
 * Create a array assign to variable
 * Create arrow function for work with filter 
 * Work on some condition to filter the values
 * Print the values
-```
 ### Psudocode
 ```
 BEGIN
@@ -399,7 +404,7 @@ var greaterThan2 = numbers.filter(n => n > 2);
 console.log(greaterThan2); // [3,4,5]
 ```
 Output
-```javascript
+```
 [3, 4, 5]
 ```
 ## 8.Count Total number of zeros from 1 up to 50
@@ -409,6 +414,14 @@ Output
 Output
 ## 9.The following array of numbers show the missing number? ([1,2,3,5,6])
 ### Algorithm
+* Start the program
+* Declare a variable missing and create a function and pass array elements
+* Iterate a for loop untill i is less than array length
+* Check whether the array has consequent numbers one by one
+  (i) if yes repeate the loop
+  (ii) if no print the missing number
+* Repeat step 3 and 4 untill i<array length
+* Stop the program				     
 ### Psudocode
 ```javascript
 BEGIN
