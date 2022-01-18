@@ -585,7 +585,7 @@ Output
 * Call the function with parameters f(a,b)
 * Stop the program
 ### Psudocode
-```
+```javascript
 BEGIN
 FUNCTION curry
 RETURN function(a)
@@ -595,7 +595,7 @@ INIT sum(a, b)
     RETURN a + b;
 INIT curriedsum
 PRINT curriedsum
-```javascript
+```
 ### code
 ```javascript
 function curry(f) { // curry(f) does the currying transform
