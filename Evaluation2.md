@@ -5,7 +5,7 @@
 * Create a function primenumber
 * Declare a variable flag=false
 * Create an outer for loop and iterate until i=200
-* Create an inner for loop(j=1;j<i;j++)
+* Create an inner for loop(j=1; j<i; j++)
 * Check whether i is divisible by j
    if yes declare flag=false
    if no declare flag=true and print the number
@@ -290,6 +290,27 @@ abi abarnais 21 years old!
 ```
 ## 7.Difference between map, reduce and filter methods? With an example
 ### Algorithm
+```javascript
+ //map
+* Start the program
+* Create the array
+* Use the arrow function to work on the map
+* Store the variable in the array 
+* Print the value
+* Stop the program
+ //reduce
+* Start the program
+* Create array to assign variable
+* Create arrow function for work with reduce
+* Do something with acc value and converted to single value
+* Print the value
+* Stop the program
+ //filter
+* Create a array assign to variable
+* Create arrow function for work with filter 
+* Work on some condition to filter the values
+* Print the values
+```
 ### Psudocode
 ```javascript
 ///map
