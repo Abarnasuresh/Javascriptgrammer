@@ -1,6 +1,15 @@
 # Javascript Evaluation 2
 ## 1.Display prime numbers 1 to 200?
 ### Algorithm
+* Start the program
+* Create a function primenumber
+* Declare a variable flag=false
+* Create an outer for loop and iterate until i=200
+* Create an inner for loop(j=1;j<i;j++)
+* Check whether i is divisible by j
+   if yes declare flag=false
+   if no declare flag=true and print the number
+* Stop the program
 ### Psudocode
 
 ### code
@@ -79,6 +88,13 @@ Output
 ```
 ## 2.From two sorted arrays, how would you find the common numbers?
 ### Algorithm
+* Start the program
+* Initialize two arrays x[],y[] and declare its value
+* Create a for loop and take the value of array x[] one by one.
+* Using includes() method check
+* Whether the elements of array x[] exists in array y[]
+* Print the element
+* Stop the program
 ### Psudocode
 ```javascript
 BEGIN
