@@ -126,6 +126,13 @@ Output
 ### Algorithm
 ### Psudocode
 ```javascript
+//Anatomy function
+BEGIN
+FUNCTION cricketAcc
+RETURN bat+helmet
+INIT k
+PRINT k
+
 //Anonymous function
 BEGIN
 setTimeout(function ()
@@ -163,6 +170,8 @@ let s=function(a,b){
 ```
 Output
 ```javascript
+//Anotomy function
+honda bat suprme helmet
 //Anonymous function
 Welcome to javascript
 //Assigning function to variable
