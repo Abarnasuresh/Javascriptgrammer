@@ -191,7 +191,7 @@ Welcome to javascript
 //Assigning function to variable
 20
 ```
-## 4.Show an example of Safegrounding function parameters?
+## 4.Show an example of Safeguarding function parameters?
 ### Algorithm
 ### Psudocode
 ```javascript
