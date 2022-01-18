@@ -456,7 +456,16 @@ Output
 ### code
 Output
 ## 11.In the Javascript function, what are the differences between call by value and reference?
+## Call by value
 ### Algorithm
+* Start the program
+* Declare a variable a=4
+* Initialize a variable b
+* Copy the value of a to b 
+   b=a
+* Assign the value of a as a=2
+* Print the value of a and b 
+* Stop the program
 ### Psudocode
 ```javascript
 //call by value
@@ -468,7 +477,32 @@ a = 2;
 PRINT a
 PRINT b
 END
-//call by reference
+```
+### Code
+```javascript
+var a = 4;
+var b;
+b = a;
+a = 2;
+console.log(a);
+console.log(b);
+```
+Output
+```
+2
+4
+```
+## Call by reference
+### Algorithm
+* Start the program
+* Declare the variable c and d
+* Set the value of c to d
+   d=c
+* As d points to the same location where c does
+* Change the value of c using object
+* Print the values of c and d 
+### Psudocode
+```javascript
 BEGIN
 INIT a
 INIT b
@@ -480,14 +514,6 @@ END
 ```
 ### code
 ```javascript
-//call by value
-	var a = 4;
-	var b;
-	b = a;
-	a = 2;
-	console.log(a);
-	console.log(b);
-//call by reference
 	var c = { greeting : 'welcome' };
     var d;
     d = c;
@@ -498,11 +524,7 @@ END
     console.log(d);
 ```
 Output
-```javascript
-// call by value
-2
-4
-//call by reference
+```
 {greeting: 'you are welcome'}
 {greeting: 'you are welcome'}
 ```
