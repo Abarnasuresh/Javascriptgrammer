@@ -138,6 +138,10 @@ Output
 ```
 ## 3.Explain about function Anatomy, Anonymous function and Assigning function to a variable with an example?
 ## Anatomy function
+A function is a sequence of instructions within a larger program.
+ * It consist of the function keyword and following by name of the function.
+ * The function can have 0, 1 or many parameters. The order of these paramaters determine the function's signature. The number of paramaters is called arity.
+ * In JavaScript, a function always returns a value. The default return value of a function is undefined.
 ### Algorithm
 * Create a function with name as cricketAcc and parameters as bat and helmet.                 
 * Return the sum of bat and helmet.     
@@ -166,7 +170,9 @@ Output
 honda bat suprme helmet
 ```
 ## Anonymous function
-
+Anonymous Function is a function that does not have any name associated with it.
+ * Normally we use the function keyword before the function name to define a function in JavaScript,
+ * however,in anonymous functions in JavaScript, we use only the function keyword, without the function name.
 ### Algorithm
 * Start the program.
 * Create a function without name and as a setTimeout event callback.
@@ -192,6 +198,8 @@ Output
 Welcome to javascript
 ```
 ## Assigning function to variable
+Anonymous functions can be assigned to a variable, making them named functions again.
+ * By doing this you can separate the function definition from its use in an event-based method:
 ### Algorithm
 * Start the program.
 * Assign the function with parameters a and b to the variable s.
