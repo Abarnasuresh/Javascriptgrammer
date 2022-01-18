@@ -5,21 +5,34 @@
 
 ### code
 ```javascript
-function primeNumber(n) {
-    let arr = [2];
-    for (let i = 3; i <= n; i += 2)
-        if (!((i % 3 == 0 && i > 3) || (i % 5 == 0 && i > 5) || (i % 7 == 0 && i > 7) || (i % 9 == 0 && i > 9))) {
-            arr.push(i);
-        }
-    return arr;
-}
-console.log(primeNumber(200));
+primeNumber(1, 200) 
+function primeNumber(from, to){ 
+    	var flag=false; 
+    	for(i = from; i <= to; i++) 
+         { 
+             for( j = 2; j < i; j++) 
+             { 
+                 if(i % j == 0) 
+                 { 
+                     flag = false; 
+                     break; 
+                 } 
+                 else 
+                 { 
+                     flag = true; 
+                 } 
+             } 
+             if(flag) 
+             { 
+                 console.log(i); 
+             } 
+         } 
+    } 
 ```
 Output
 ```
-[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 121, 127, 131, 137, 139, 143, 149, 151, 157, 163, 167, 169, 173, 179, 181, 187, 191, 193, 197, 199]
-```
 
+```
 ## 2.From two sorted arrays, how would you find the common numbers?
 ### Algorithm
 ### Psudocode
@@ -69,6 +82,14 @@ END
 ```
 ### code
 ```javascript
+// Anatomy function
+function cricketAcc(bat,helmet)
+{
+return bat+helmet
+}
+let k=cricketAcc("honda bat ","suprme helmet");
+console.log(k)
+
 //Anonymous function
 setTimeout(function () {
     console.log("Welcome to javascript");
