@@ -590,6 +590,7 @@ JavaScript ES6 (also known as ECMAScript 2015 or ECMAScript 6) is the newer vers
 ## 15.What is an anonymous function? Where do we use it? Why do we need it?
 Anonymous Function is a function that does not have any name associated with it.
   Normally we use the function keyword before the function name to define a function in JavaScript,however,in anonymous functions in JavaScript, we use only the function keyword,  without the function name.
+  
 ## Code
 ```javascript
   //Anonymous function
@@ -600,8 +601,35 @@ setTimeout(function () {
 //use
 Anonymous functions are often arguments being passed to higher-order functions or used for constructing the result of a higher-order function that needs to return a function. 
  If the function is only used once, or a limited number of times, an anonymous function may be syntactically lighter than using a named function.
+ 
 //need
 The meaning of the word 'anonymous' defines something that is unknown or has no identity.
  In JavaScript, an anonymous function is that type of function that has no name or we can say which is without any name.
  When we create an anonymous function, it is declared without any identifier.
 ## 16.List the differences between named function and assigning functions to variable with examples
+## named function
+### Code
+```javascript
+function cricketAcc(bat,helmet)
+{
+return bat+helmet
+}
+let k=cricketAcc("honda bat ","suprme helmet");
+console.log(k)
+```
+Output
+```
+honda bat suprme helmet
+```
+## Assigning functions to variable
+### Code
+```javascript
+let s=function(a,b){
+    return a*b;
+  }
+  console.log(s(4,5));
+```
+Output
+```
+20
+```
