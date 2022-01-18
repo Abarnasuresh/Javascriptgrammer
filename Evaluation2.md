@@ -149,7 +149,6 @@ A function is a sequence of instructions within a larger program.
 * Print the result and stop the program.
 ### Psudocode
 ```javascript
-//Anatomy function
 BEGIN
 FUNCTION cricketAcc
 RETURN bat+helmet
@@ -157,7 +156,7 @@ INIT k
 PRINT k
 ```
 ### Code
-```
+```javascript
 function cricketAcc(bat,helmet)
 {
 return bat+helmet
@@ -180,7 +179,6 @@ Anonymous Function is a function that does not have any name associated with it.
 * Stop the program
 ### Psudocode
 ```javascript
-//Anonymous function
 BEGIN
 setTimeout(function ()
 PRINT ("Welcome to javascript")
@@ -206,8 +204,7 @@ Anonymous functions can be assigned to a variable, making them named functions a
 * Multiply a and b then return.Instead of calling function we can call that variable.
 * Stop the program
 ### Psudocode
-```
-//Assigning function to variable
+```javascript
 BEGIN
 INIT S
 RETURN a*b;
@@ -215,7 +212,7 @@ PRINT S
 END
 ```
 ### code
-```
+```javascript
 let s=function(a,b){
     return a*b;
   }
