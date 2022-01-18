@@ -579,8 +579,23 @@ Output
 ## 13.What is Currying in Javascript? Explain with a real time example.
 ### Algorithm
 * Start the program
-* Create a function curry to return the function a and return the function b
+* Create a function with parameter and assign to a variable.
+* Return a the function inside the return function return another function with parameter.
+* Do something inside with all parameters and return it.
+* Call the function with parameters f(a,b)
+* Stop the program
 ### Psudocode
+```
+BEGIN
+FUNCTION curry
+RETURN function(a)
+RETURN function(b)
+RETURN f(a,b)
+INIT sum(a, b) 
+    RETURN a + b;
+INIT curriedsum
+PRINT curriedsum
+```javascript
 ### code
 ```javascript
 function curry(f) { // curry(f) does the currying transform
