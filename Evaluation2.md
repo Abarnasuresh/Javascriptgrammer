@@ -290,7 +290,7 @@ abi abarnais 21 years old!
 ```
 ## 7.Difference between map, reduce and filter methods? With an example
 ### Algorithm
-```javascript
+```
  //map
 * Start the program
 * Create the array
