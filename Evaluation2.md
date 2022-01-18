@@ -199,7 +199,7 @@ Welcome to javascript
 ```
 ## Assigning function to variable
 Anonymous functions can be assigned to a variable, making them named functions again.
- * By doing this you can separate the function definition from its use in an event-based method:
+ * By doing this you can separate the function definition from its use in an event-based method
 ### Algorithm
 * Start the program.
 * Assign the function with parameters a and b to the variable s.
@@ -578,6 +578,8 @@ Output
 ```
 ## 13.What is Currying in Javascript? Explain with a real time example.
 ### Algorithm
+* Start the program
+* Create a function curry to return the function a and return the function b
 ### Psudocode
 ### code
 ```javascript
@@ -630,6 +632,10 @@ The meaning of the word 'anonymous' defines something that is unknown or has no 
  * When we create an anonymous function, it is declared without any identifier.
 ## 16.List the differences between named function and assigning functions to variable with examples
 ## named function
+A function is a sequence of instructions within a larger program.
+ * It consist of the function keyword and following by name of the function.
+ * The function can have 0, 1 or many parameters. The order of these paramaters determine the function's signature. The number of paramaters is called arity.
+ * In JavaScript, a function always returns a value. The default return value of a function is undefined.
 ### Code
 ```javascript
 function cricketAcc(bat,helmet)
@@ -644,6 +650,8 @@ Output
 honda bat suprme helmet
 ```
 ## Assigning functions to variable
+Anonymous functions can be assigned to a variable, making them named functions again.
+ * By doing this you can separate the function definition from its use in an event-based method
 ### Code
 ```javascript
 let s=function(a,b){
