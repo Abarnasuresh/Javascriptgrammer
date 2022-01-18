@@ -31,7 +31,51 @@ function primeNumber(from, to){
 ```
 Output
 ```
-
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+53
+59
+61
+67
+71
+73
+79
+83
+89
+97
+101
+103
+107
+109
+113
+127
+131
+137
+139
+149
+151
+157
+163
+167
+173
+179
+181
+191
+193
+197
+199
 ```
 ## 2.From two sorted arrays, how would you find the common numbers?
 ### Algorithm
@@ -389,3 +433,19 @@ JavaScript ES6 (also known as ECMAScript 2015 or ECMAScript 6) is the newer vers
  * ECMAScript provides the specification on how JavaScript programming language should work.
 ```
 ## 15.What is an anonymous function? Where do we use it? Why do we need it?
+Anonymous Function is a function that does not have any name associated with it.
+  Normally we use the function keyword before the function name to define a function in JavaScript,however,in anonymous functions in JavaScript, we use only the function keyword,  without the function name.
+## Code
+```javascript
+  //Anonymous function
+setTimeout(function () {
+    console.log("Welcome to javascript");
+}, 100);
+```
+//use
+Anonymous functions are often arguments being passed to higher-order functions or used for constructing the result of a higher-order function that needs to return a function. 
+ If the function is only used once, or a limited number of times, an anonymous function may be syntactically lighter than using a named function.
+//need
+The meaning of the word 'anonymous' defines something that is unknown or has no identity.
+ In JavaScript, an anonymous function is that type of function that has no name or we can say which is without any name.
+ When we create an anonymous function, it is declared without any identifier.
